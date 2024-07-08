@@ -1,7 +1,7 @@
 import net from 'net';
 import { getProtoMessages, loadProtos } from './src/init/loadProtos.js';
 import { gameSessions } from './src/session/sessions.js';
-import { addGameSession } from './src/session/game.session.js';
+// import { addGameSession } from './src/session/game.session.js';
 
 const TOTAL_LENGTH = 4; // 전체 길이를 나타내는 4바이트
 const PACKET_TYPE_LENGTH = 1; // 패킷타입을 나타내는 1바이트

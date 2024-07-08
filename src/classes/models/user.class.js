@@ -1,5 +1,5 @@
 class User {
-  constructor(id, socket, playerId, latency) {
+  constructor( socket, id, playerId, latency) {
     this.id = id;
     this.socket = socket;
     this.playerId = playerId;

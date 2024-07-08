@@ -15,5 +15,12 @@ export const removeUser = (socket) => {
 };
 
 export const getUserById = (id) => {
+  console.log(userSessions);
+  console.log('userSession',id);
+  for (let i = 0; i < userSessions.length; i++) {
+    if (userSessions[i].id === id) {
+      return userSessions[i];
+    }
+  }
   return userSessions.find((user) => user.id === id);
 };

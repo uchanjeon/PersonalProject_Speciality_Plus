@@ -21,7 +21,7 @@ const handlers = {
   },
   [HANDLER_IDS.UPDATE_LOCATION]: {
     handler: updateLocationHandler,
-    protoType: 'game.updateLocationPayload',
+    protoType: 'game.UpdateLocationPayload',
   },
 };
 
